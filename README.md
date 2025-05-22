@@ -1,6 +1,17 @@
 # OtktDSL-examples
 
-# Expanding Kieker and OTel interoperability for Python
+This repository has submodules.
+Either clone it with:
+```
+git clone --recurse-submodules <url>
+```
+Or run:
+```
+git submodule update --remote --recursive
+```
+
+## Author
+
 - Daphné Larrivain <daphne.larrivain@ecole.ensicaen.fr>
 
 ## About
