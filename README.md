@@ -18,7 +18,7 @@ Here, 3 examples are given in the `apps` repository:
 - UXsim, an open-source Python tool for simulating network traffic flow.
 - AnyTree, a Python library for creating and manipulating tree data structures.
 
-The Kieker generated material based of off these apps demonstrated here is the following:
+The Kieker graphs demonstrated here is the following:
 - Deployment Component Dependency Graph
 - Deployment Sequence Diagrams (one for each trace in a given log)
 - Aggregated Deployment Call Tree
