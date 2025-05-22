@@ -6,6 +6,8 @@ Clone it with:
 git clone --recurse-submodules <url>
 ```
 
+![Otkt logo](res/otkt_logo.svg)
+
 ## About
 
 This repository demonstrates how to instrument and generate Kieker Analysis material for Python applications.
