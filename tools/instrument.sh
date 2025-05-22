@@ -5,7 +5,7 @@ if [ "$#" -ne 1 ]; then
     exit 1
 fi
 
-cd $1
+cd apps/$1
 
 # * Prepend the following line to all Python files of the target program.
 #
@@ -20,7 +20,7 @@ for py in `find . -not -path '*/[@.]*' -type f -name "*py"` ; do sed -i '1 i\fro
 #
 for py in `find . -not -path '*/[@.]*' -type f -name "*py"` ; do sed -i 's/^\([\ \t]*\)\(def \)\(.*\)$/\1@instrument\n\1\2\3/g' ${py} ; done
 
-cd ..
+cd ../..
 
 # * Instrument entrypoint
 sed -i "1i from otkt.kieker.otelinit import tracer" "src/$1-test.py"
