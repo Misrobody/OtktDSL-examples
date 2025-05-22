@@ -43,7 +43,7 @@ cd ..
 ## Instrument
 Instrument the app of your choice.
 ```
-./tools/instrument.sh apps/<helloWorld|UXsim|anytree>
+./tools/instrument.sh <helloWorld|UXsim|anytree>
 ```
 And install the instrumented app.
 ```
