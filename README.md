@@ -28,6 +28,7 @@ Please refer to the [Kieker userguide]{https://oceanrep.geomar.de/id/eprint/1653
 ## Setup
 
 ### Build the collector and monitoring probe
+(Already done)
 ```
  java -jar tools/otkt-jar-with-dependencies.jar src/demo.otkt
 ```
