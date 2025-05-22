@@ -1,4 +1,3 @@
-from otkt.otelinit import tracer
 from uxsim import World
 
 # Define the main simulation
