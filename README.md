@@ -1,13 +1,9 @@
 # OtktDSL-examples
 
 This repository has submodules.
-Either clone it with:
+Clone it with:
 ```
 git clone --recurse-submodules <url>
-```
-Or run:
-```
-git submodule update --remote --recursive
 ```
 
 ## About
