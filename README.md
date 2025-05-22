@@ -10,10 +10,6 @@ Or run:
 git submodule update --remote --recursive
 ```
 
-## Author
-
-- Daphné Larrivain <daphne.larrivain@ecole.ensicaen.fr>
-
 ## About
 
 This repository demonstrates how to instrument and generate Kieker Analysis material for Python applications.
@@ -85,3 +81,7 @@ poetry install
 python3 -m build
 pip install dist/anytree-2.13.0+d20250505.tar.gz
 ```
+
+## Author
+
+- Daphné Larrivain <daphne.larrivain@ecole.ensicaen.fr>
