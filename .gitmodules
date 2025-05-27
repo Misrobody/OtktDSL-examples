@@ -1,9 +1,9 @@
 [submodule "apps/anytree"]
 	path = apps/anytree
-	url = git@github.com:c0fec0de/anytree.git
+	url = https://github.com/c0fec0de/anytree.git
 [submodule "apps/UXsim"]
 	path = apps/UXsim
-	url = git@github.com:toruseo/UXsim.git
+	url = https://github.com/toruseo/UXsim.git
 [submodule "apps/helloWorld"]
 	path = apps/helloWorld
-	url = git@github.com:Misrobody/helloWorld.git
+	url = https://github.com/Misrobody/helloWorld.git
