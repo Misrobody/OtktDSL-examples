@@ -21,7 +21,7 @@ Here, 3 examples are given in the `apps` repository:
 ### Build the collector and monitoring probe
 (Already done)
 ```
- java -jar tools/otkt-jar-with-dependencies.jar src/demo.otkt
+java -jar tools/otkt-jar-with-dependencies.jar src/demo.otkt
 ```
 
 ### Install the collector and monitoring probe
