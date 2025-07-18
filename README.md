@@ -39,8 +39,13 @@ Instrument the app of your choice.
 And install the instrumented app. This process varies from app to app. The following should work in most cases.
 ```
 cd apps/<helloWorld|UXsim|anytree>
+pip install . --no-build-isolation --no-compile --use-feature=fast-deps
+```
+Or
+```
+cd apps/<helloWorld|UXsim|anytree>
 python3 -m build .
-pip install dist/*.whl
+pip install dist/*.whl -v
 cd ../..
 ```
 
