@@ -10,18 +10,11 @@ git clone --recurse-submodules <url>
 
 ## About
 
-This repository demonstrates how to instrument and generate Kieker Analysis material for Python applications.
+This repository demonstrates how to instrument Python applications and generate Kieker logs.
 Here, 3 examples are given in the `apps` repository:
 - helloWorld, a dummy app.
 - UXsim, an open-source Python tool for simulating network traffic flow.
 - AnyTree, a Python library for creating and manipulating tree data structures.
-
-The Kieker graphs demonstrated here is the following:
-- Deployment Component Dependency Graph
-- Deployment Sequence Diagrams (one for each trace in a given log)
-- Aggregated Deployment Call Tree
-
-Please refer to the [Kieker userguide]{https://oceanrep.geomar.de/id/eprint/16537/79/kieker-1.14-userguide.pdf} for further instructions on how to generate other diagram types.
 
 ## Setup
 
@@ -54,7 +47,8 @@ cd ../..
 ## Data collection
 First, launch the collector.
 ```
-./tools/collector.sh
+cd otkt-gen
+make run
 ```
 In another terminal, launch the app of your choice.
 ```
@@ -64,13 +58,4 @@ You should now see the kieker logs collected in /tmp.
 ```
 ll /tmp/kieker*
 ```
-   
-## Analysis
-Now, run the analysis of your choice.
-```
-./tools/analysis <output directory> <component|sequence|calltree>
-```
-The diagrams generated as pdfs can be opened with the following command:
-```
-gio open ./bin/<output directory>/<filename>.pdf
-```
+You are now free to use these logs with any of the [Kieker tools](https://kieker-monitoring.readthedocs.io/en/latest/kieker-tools/Kieker-Tools.html)
