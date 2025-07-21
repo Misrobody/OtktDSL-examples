@@ -7,3 +7,6 @@
 [submodule "apps/helloWorld"]
 	path = apps/helloWorld
 	url = https://github.com/Misrobody/helloWorld.git
+[submodule "tools/Otkt-Instrument"]
+        path = tools/Otkt-Instrument
+        url = https://github.com/Misrobody/Otkt-Instrument.git
