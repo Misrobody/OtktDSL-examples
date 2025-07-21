@@ -48,6 +48,7 @@ python3 -m build .
 pip install dist/*.whl -v
 cd ../..
 ```
+You can also install it with the -e flag to make changes on the fly.
 
 ## Data collection
 First, launch the collector.
