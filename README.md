@@ -34,7 +34,7 @@ cd ..
 ## Instrument
 Instrument the app of your choice.
 ```
-./tools/instrument.sh <helloWorld|UXsim|anytree>
+python3 tools/Otkt-Instrument/instrument -i apps/<helloWorld|UXsim|anytree>
 ```
 And install the instrumented app. This process varies from app to app. The following should work in most cases.
 ```
